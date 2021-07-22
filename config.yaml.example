@@ -1,6 +1,6 @@
 ---
 discord_key: <Your Key>
-setup:
+config:
   755231190134554696:  # Server ID; can be added/changed by settings
     credentials:
       API Key: abc123
@@ -16,9 +16,9 @@ setup:
       channels: [], # List of channels allowed to interact
       roles: [], # List of roles allowed to interact
       users: [] # Custom list of users allowed to interact
-    },
+    }
     search: {
       enabled: False,
       terms: [] # List of terms for live streaming
-    },
+    }
     votes_needed: 1
